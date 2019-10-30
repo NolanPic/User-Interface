@@ -134,9 +134,24 @@ nav a {
 }
 
 
-.main-section {
+/* intro section */
+.intro-section {
 	border-bottom: 2px solid #404040;
 }
+
+.intro-heading {
+	font-size: 70px;
+	text-align: center;
+}
+
+.intro-section > .row {
+	padding: 10% 0;
+}
+
+.intro-section .intro-image {
+	text-align: right;
+}
+
 
 footer {
 	border-top: 2px solid #404040;

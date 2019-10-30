@@ -64,3 +64,21 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header, section, footer {
+	margin-bottom: 4%;
+}
+
+.main-section {
+	border-bottom: 2px solid #404040;
+}
+
+footer {
+	border-top: 2px solid #404040;
+}
+

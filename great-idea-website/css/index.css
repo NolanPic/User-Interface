@@ -64,6 +64,10 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+p {
+	line-height: 1.2;
+}
+
 /* Your code starts here! */
 
 /* set page width/margin */
@@ -105,6 +109,10 @@ nav a {
 
 .col {
 	display: inline-block;
+}
+
+.col:not(:last-child) {
+	padding-right: 2%;
 }
 
 .row.two-col .col {

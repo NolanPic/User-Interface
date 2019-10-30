@@ -51,7 +51,7 @@ table {
 * {
     box-sizing: border-box;
 	max-width: 100%;
-	border: 1px solid red !important;
+	/*border: 1px solid red !important;*/
 }
 
 html, body {
@@ -87,7 +87,7 @@ header, section, footer {
 header {
 	margin-top: 35px;
 	width: 100%;
-
+	vertical-align: center;
 }
 
 nav, .logo {
@@ -97,7 +97,6 @@ nav, .logo {
 nav {
 	width: 75%;
 	height: inherit;
-	vertical-align: center;
 }
 
 nav a {
@@ -139,7 +138,6 @@ nav a {
 	width: 33%;
 }
 
-
 /* intro section */
 .intro-section {
 	border-bottom: 2px solid #404040;
@@ -155,11 +153,16 @@ nav a {
 }
 
 .intro-section > .row {
-	padding: 10% 0;
+	padding-bottom: 10%;
 }
 
 .intro-section .intro-image {
 	text-align: right;
+}
+
+/* middle image */
+.middle-img {
+	width: 100%;
 }
 
 /* footer */

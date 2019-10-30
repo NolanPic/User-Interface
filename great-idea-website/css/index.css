@@ -65,14 +65,38 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+/* set page width/margin */
 .container {
 	width: 70%;
 	margin: 0 auto;
 }
 
+/* set margins for sections */
 header, section, footer {
 	margin-bottom: 4%;
 }
+
+/* header and nav */
+header {
+	margin-top: 35px;
+	width: 100%;
+}
+
+nav, .logo {
+	display: inline-block;
+}
+
+nav {
+	width: 75%;
+}
+
+nav a {
+	padding-right: 7%;
+	text-decoration: none;
+	color: #ccc;
+}
+
+
 
 .main-section {
 	border-bottom: 2px solid #404040;

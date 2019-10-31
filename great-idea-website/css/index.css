@@ -117,6 +117,12 @@ nav .logo {
 	color: #404040;
 }
 
+.button:hover {
+	animation-duration: 0.6s;
+	animation-fill-mode: forwards;
+	animation-name: button-hover;
+}
+
 /* rows and columns */
 
 .row {
@@ -178,6 +184,17 @@ footer {
 .copyright {
 	margin-top: 4%;
 	text-align: center;
+}
+
+/* animations */
+@keyframes button-hover {
+	to {
+		background-color: #404040;
+		color: #fff;
+		border-radius: 10px;
+		font-style: italic;
+		border: 5px dashed #fff;
+	}
 }
 
 

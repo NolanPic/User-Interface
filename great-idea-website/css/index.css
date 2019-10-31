@@ -87,23 +87,24 @@ header, section, footer {
 header {
 	margin-top: 35px;
 	width: 100%;
-	vertical-align: center;
 }
 
-nav, .logo {
-	display: inline-block;
-}
+
 
 nav {
-	width: 75%;
-	height: inherit;
+	width: 100%;
 }
 
-nav a {
-	padding-right: 7%;
+nav a, nav img {
+	display: inline-block;
+	margin-right: 6%;
 	text-decoration: none;
 	color: #ccc;
+}
 
+nav .logo {
+	margin-right: 0;
+	margin-left: 220px;
 }
 
 /* button */
@@ -140,6 +141,7 @@ nav a {
 
 /* intro section */
 .intro-section {
+	margin-top: 6%;
 	border-bottom: 2px solid #404040;
 }
 
@@ -148,7 +150,7 @@ nav a {
 }
 
 .intro-heading h1 {
-	font-size: 70px;
+	font-size: 100px;
 	padding-bottom: 10px;
 }
 
